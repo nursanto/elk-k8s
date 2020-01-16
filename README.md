@@ -15,7 +15,7 @@
 	elastic https://Helm.elastic.co
 
 ## ELK install
-generete value and modify if needed, or user reference in [materials](./materials) folder
+generete value and modify if needed, or use reference in [materials](./materials) folder
 
 	# helm inspect values elastic/elasticsearch > /tmp/elastic.value
 	# helm install --name elastic elastic/elasticsearch -f /tmp/elastic.value
